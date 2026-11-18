@@ -185,7 +185,7 @@ h1, h2 { font-size: calc(60 * var(--u)); line-height: 1.15; }
 .how {
   padding: calc(107 * var(--u)) 24px calc(140 * var(--u));
   text-align: center;
-  background: linear-gradient(#fff 0, #fff calc(100% - 120 * var(--u)), #f5f8ff calc(100% - 120 * var(--u)));
+  background: #fff;
 }
 .how__lead {
   max-width: calc(880 * var(--u)); margin: calc(40 * var(--u)) auto 0;
