@@ -15,9 +15,6 @@ import productImg from "./assets/pawping-produk.png"; // foto hero
 import logoImg from "./assets/pet-pawping-logo2.png"; // logo navbar & footer
 import "./App.css";
 
-/* ====== GANTI INI ======
-   Taruh file APK di folder /public dengan nama pawping.apk,
-   atau ganti dengan link Google Drive / GitHub Releases. */
 const APK_URL = "/pawping.apk";
 
 const NAV = [
