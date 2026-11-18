@@ -1,10 +1,11 @@
+
 /* =====================================================
    Ukuran desktop mengikuti frame Figma 1440px.
-   Semua ukuran ditulis calc(N * var(--u)) -> otomatis
-   mengecil proporsional saat layar < 1440px.
+   Semua ukuran ditulis calc(N * var(--u)).
+   Skala desktop sedikit diperkecil agar lebih proporsional.
    ===================================================== */
 :root {
-  --u: min(1px, calc(100vw / 1440));
+  --u: min(0.85px, calc(100vw / 1600));
   --gutter: max(0px, calc((100vw - 1440px) / 2));
 
   --navy: #33445f;
